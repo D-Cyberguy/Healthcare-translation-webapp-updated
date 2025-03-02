@@ -4,6 +4,7 @@ import openai  # AI-powered Speech-to-Text
 from deep_translator import GoogleTranslator  # Fix for googletrans issues
 from gtts import gTTS
 import os
+from healthcare_translation_app import app as application
 
 app = Flask(__name__)
 CORS(app)
